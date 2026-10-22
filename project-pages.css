@@ -1,0 +1,18 @@
+/* Scoped additions for research and comps detail pages. Existing site styles remain unchanged. */
+.detail-page .page-intro { margin-bottom: 2.5rem; }
+.detail-page .page-intro h1 { max-width: 22ch; }
+.detail-page .detail-meta { font-size: .88rem; letter-spacing: .01em; color: #666; margin-bottom: .85rem; }
+.longform { max-width: 68ch; margin-bottom: 5rem; }
+.longform h2 { font-size: 1.18rem; font-weight: 600; margin: 2.25rem 0 .65rem; line-height: 1.35; }
+.longform p, .longform li { font-size: 1rem; line-height: 1.75; }
+.longform p { margin: 0 0 1.2rem; }
+.longform ul { margin: .5rem 0 1.5rem; padding-left: 1.35rem; }
+.longform li { margin-bottom: .55rem; }
+.longform a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.longform a:hover { opacity: .66; }
+.longform .document-link { margin: 2rem 0; }
+.longform .detail-note { color: #666; font-size: .9rem; }
+@media (max-width: 700px) {
+  .detail-page .page-intro h1 { max-width: none; }
+  .longform { max-width: 100%; }
+}
