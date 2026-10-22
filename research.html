@@ -6,6 +6,25 @@
   <title>Research — Siddharth Chundru</title>
   <meta name="description" content="Independent research projects by Siddharth Chundru.">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Keep the site's existing two-column listing; stack metadata within its column. */
+    .entry .entry-meta {
+      min-width: 0;
+      white-space: normal;
+      line-height: 1.35;
+    }
+    .entry .entry-meta .meta-primary,
+    .entry .entry-meta .meta-secondary {
+      display: block;
+    }
+    .entry .entry-meta .meta-secondary {
+      margin-top: 0.3rem;
+      font-size: 0.78em;
+      line-height: 1.4;
+      color: #929292;
+      overflow-wrap: anywhere;
+    }
+  </style>
   
 </head>
 <body>
@@ -25,7 +44,7 @@
     </section>
     <section class="listing">
       <article class="entry">
-        <div class="entry-meta">Ongoing · Embodied learning</div>
+        <div class="entry-meta"><span class="meta-primary">Ongoing</span><span class="meta-secondary">Embodied learning</span></div>
         <div class="entry-content">
           <h3><a href="self-generated-experience.html">Learning from Self-Generated Experience</a></h3>
           <p>How does the way an agent acquires its own experience affect what it learns? This project compares demonstration-based training, random exploration, goal-directed practice, and intrinsic exploration in a common two-dimensional navigation setting. With matched experience budgets, the proposed evaluation examines predictive learning, coverage of the environment, and generalization to new goals or perturbations. The aim is to distinguish improvements due to the quantity of experience from those due to the policy used to generate it.</p>
@@ -33,7 +52,7 @@
         </div>
       </article>
       <article class="entry">
-        <div class="entry-meta">Exploratory · Enactive AI</div>
+        <div class="entry-meta"><span class="meta-primary">Exploratory</span><span class="meta-secondary">Enactive AI</span></div>
         <div class="entry-content">
           <h3><a href="plastic-attention.html">Plastic Attention and Sensorimotor Habits</a></h3>
           <p>Can an attention-based architecture support persistent, self-organizing sensorimotor habits through online interaction, rather than simply retrieve useful past states? This project investigates activity-dependent plasticity in attention as a candidate mechanism for habit formation. The proposed comparisons include an iterant deformable sensorimotor medium (IDSM), plastic recurrent networks, fixed-attention models, and plastic-attention variants. Central questions concern habit persistence, behavioral diversity, and recovery from changes to the body or environment.</p>
